@@ -13,5 +13,6 @@ echo $primeiraConta->recuperaSaldo() . PHP_EOL;
 $segundaConta = new Conta('698.549.548-10', 'Patricia');
 var_dump($segundaConta);
 
-new Conta('123', 'Abcdefg');
+$outra = new Conta('123', 'Abcdefg');
+unset($segundaConta);
 echo Conta::recuperaNumeroDeContas();
