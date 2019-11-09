@@ -56,6 +56,7 @@ class Conta
     {
         $this->nomeTitular = $nome;
     }
+
     public function recuperaNomeTitular(): string
     {
         return $this->nomeTitular;
